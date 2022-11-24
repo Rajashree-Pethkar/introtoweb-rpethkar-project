@@ -11,7 +11,7 @@ body{
     flex-flow: row wrap;
     justify-content: flex-end;
     margin: 0;
-    background-color: #be7302
+    background-color: #80633f
 }
 
 .flex-container li {
@@ -79,7 +79,7 @@ div p {
 
 .typed-text {
     font-weight: normal;
-    color: #ffc107;
+    color: #80633f;
 }
 
 .self-img{
@@ -160,5 +160,5 @@ figure figcaption{
     border-color: white;
     border-style: solid;
     border-radius: 15px;
-    background-color: #be7302
+    background-color: #80633f
 }
