@@ -2,7 +2,7 @@ $(document).ready(function() {
     var flag;
     if (flag == undefined) {
         const typedTextSpan = document.querySelector(".typed-text");
-        const textArray = ["designer", "developer", "programmer"];
+        const textArray = ["engineer", "designer", "developer", "programmer"];
         const typingDelay = 100;
         const erasingDelay = 100;
         const newTextDelay = 2000;

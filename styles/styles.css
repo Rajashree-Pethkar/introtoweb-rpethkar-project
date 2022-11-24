@@ -129,11 +129,6 @@ div p {
     transition: color 1s ease;
 }
 
-.view-resume:hover {
-    text-decoration: none;
-    color: white;
-}
-
 .skills-div{
     margin-top: 5rem;
 }
@@ -155,4 +150,15 @@ figure{
 
 figure figcaption{
     margin-top: 1em;
+}
+
+.projects-div{
+    height: 15rem;
+    width: 15rem;
+    padding: 20px;
+    margin: 10px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 15px;
+    background-color: #be7302
 }
