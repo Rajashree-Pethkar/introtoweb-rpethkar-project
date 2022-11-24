@@ -4,18 +4,106 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio- Rajashree Pethkar</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../rajashreepethkar/styles/styles.css"/>
+    <link rel="stylesheet" href="../styles/styles.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="../rajashreepethkar/scripts/main.js"></script>
+    <script src="../scripts/main.js"></script>
 </head>
 <body>
-    <nav>
-        <li><a href="">About Me</a></li>
-        <li><a href="">Skills</a></li>
-        <li><a href="">Projects</a></li>
-        <li><a href="">Resume</a></li>
-        <li><a href="">Contact Me</a></li>
+    <nav class="flex-container position-sticky">
+        <!-- <a class="navbar-name menu-link-for-collapse" href="#">Rajashree Pethkar</a> -->
+        <li>
+            <a href="#aboutme" class="menu-link-names">About Me</a>
+        </li>
+        <li>
+            <a href="#experience" class="menu-link-names">Experience</a>
+        </li>
+        <li>
+            <a href="#skills" class="menu-link-names">Skills</a>
+        </li>
+        <li>
+            <a href="#projects" class="menu-link-names">Projects</a>
+        </li>
+        <li>
+            <a href="#contactme" class="menu-link-names">Contact Me</a>
+        </li>
     </nav>
+    <div id="introduction" class="intro-text">
+        <img src="../images/rajashree.png" width="300px" height="300px" alt="rajashree's image" class="self-img">
+        <div class="home-heading">Hi I am Rajashree Pethkar</div>
+        <p class="home-text">
+            I am a 
+            <span class="typed-text"></span>
+            <span class="cursor">&nbsp;</span> 
+        </p>
+    </div>
+    <div id="aboutme" class="intro-text">
+        <h1>About Me</h1>
+        <p class="aboutme-details">
+            I am a Master's Student at Portland State University.
+            As Master's student in Computer Science at Portland State University, 
+            I am cementing my knowledge in ML, AI, NLP, Web Development and
+            Internet, Web, and Cloud through my course work. 
+            I am getting hands-on experience in Single page application
+            development, responsive web applications, ECMAScript6, Node.js, HTML, CSS, Bootstrap, 
+            JavaScript, and jQuery.
+            I have experience in developing web applications using C# and .net technologies. 
+            I have also experience in performing unit testing and resolving bugs.
+            I am interested in ML, AI, NLP, Web Development, Cloud.
+            Looking for opportunities to work as a Software Developer.
+        </p>
+    </div>
+    <div id="experience" class="intro-text">
+        <h1 class="col-title title-main-div">Experience</h1>
+        <h5>Sr. Team Lead, Tata Communications</h4>
+        <h6>Apr 2021 - Nov 2021</h5>
+        <h5>Project Manager, Pethkar Systems LLP</h4>
+        <h6>April 2016 - Nov 2020</h5>
+        <h5>Senior Software Engineer, Persistent Systems Ltd</h4>
+        <h6>Oct 2013 - April 2016</h5>
+        
+        <div class="view-resume-div">
+            <a class="view-resume" href="../Files/Resume.pdf" target="_blank">View Resume</a>
+        </div>
+    </div>
+    <div id="skills" class="intro-text">
+        <h1>My Skills</h1>
+        <div class="d-flex flex-wrap justify-content-center skills-div">
+            <figure class="">
+                <img src="../images/html.png" alt="html" class="skills-logo">
+                <figcaption>HTML</figcaption>
+            </figure>
+            <figure class="">
+                <img src="../images/css.png" alt="html" class="skills-logo">
+                <figcaption>CSS</figcaption>
+            </figure>
+            <figure class="">
+                <img src="../images/javascript.png" alt="html" class="skills-logo">
+                <figcaption>JavaScript</figcaption>
+            </figure>
+            <figure class="">
+                <img src="../images/jquery.png" alt="html" class="skills-logo">
+                <figcaption>jQuery</figcaption>
+            </figure>
+            <figure class="">
+                <img src="../images/csharp.svg" alt="html" class="skills-logo">
+                <figcaption>C#</figcaption>
+            </figure>
+            <figure class="">
+                <img src="../images/python.png" alt="html" class="skills-logo">
+                <figcaption>Python</figcaption>
+            </figure>
+        </div>
+    </div>
+    <!-- <div id="projects" class="intro-text">
+        <h1>My Projects</h1>
+        <div class="d-flex flex-wrap justify-content-center">
+
+        </div>
+    </div>
+    <div id="contactme" class="intro-text">
+        <h1>Contact Me</h1>
+    </div> -->
 </body>
 </html>
