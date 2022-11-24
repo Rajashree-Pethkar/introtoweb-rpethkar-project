@@ -1,0 +1,158 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.flex-container {
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    margin: 0;
+    background-color: #be7302
+}
+
+.flex-container li {
+    list-style: none;
+}
+
+.flex-container a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+}
+
+.flex-container a:hover {
+    background: var(--green);
+}
+
+.flex-container a:active {
+    background: var(--orange);
+}
+
+.flex-container a:focus {
+    border-color: var(--orange);
+    border-style: solid;
+}
+
+div img.self-img {
+    border-radius: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+div p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.intro-text{
+    text-align: center;
+    padding: 80px;
+}
+
+.menu-link-names {
+    color: white;
+}
+
+.menu-image {
+    float: right;
+    cursor: pointer;
+}
+
+.img-box {
+    width: 135px;
+    height: 135px;
+}
+
+.know-more-icon {
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    animation: border_out 4s infinite;
+    border: 1px solid #ffffff;
+}
+
+.typed-text {
+    font-weight: normal;
+    color: #ffc107;
+}
+
+.self-img{
+    margin-bottom: 40px;
+}
+
+.home-heading{
+    font-size: 35px;
+}
+
+.home-text{
+    font-size: 25px;
+}
+
+.intro-text p{
+    width: 100%;
+}
+
+.aboutme-details{
+    text-align: left;
+    font-size: x-large;
+    padding: 20px;
+}
+
+.title-main-div {
+    border-bottom: 1px solid black;
+    padding-bottom: 17px;
+    padding-top: 5px;
+}
+
+#experience h1{
+    padding: 40px;
+}
+
+#experience h6{
+    padding: 0px 10px 10px 10px
+}
+
+.view-resume-div {
+    margin: auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.view-resume {
+    padding: 10px 10px;
+    transition: color 1s ease;
+}
+
+.view-resume:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.skills-div{
+    margin-top: 5rem;
+}
+
+.skills-figure{
+    margin-right: 1rem;
+}
+
+.skills-logo
+{
+    width: 5rem;
+    height: 5rem;
+}
+
+figure{
+    padding: 20px;
+    margin: 10px;
+}
+
+figure figcaption{
+    margin-top: 1em;
+}
