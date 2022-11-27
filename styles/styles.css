@@ -7,11 +7,11 @@ body{
     top: 0;
     left: 0;
     z-index: 1;
+    margin: 0;
+    background-color: #80633f;
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
-    margin: 0;
-    background-color: #80633f
 }
 
 .flex-container li {
@@ -24,17 +24,10 @@ body{
     padding: 1em;
 }
 
-.flex-container a:hover {
-    background: var(--green);
-}
-
-.flex-container a:active {
-    background: var(--orange);
-}
-
-.flex-container a:focus {
-    border-color: var(--orange);
-    border-style: solid;
+@media(max-width:414px){
+    .flex-container{
+        font-size: 13px;
+    }
 }
 
 div img.self-img {
@@ -52,7 +45,7 @@ div p {
 
 .intro-text{
     text-align: center;
-    padding: 80px;
+    padding: 60px;
 }
 
 .menu-link-names {
