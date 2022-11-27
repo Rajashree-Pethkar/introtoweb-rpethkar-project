@@ -16,6 +16,9 @@ This is my portfolio website created using HTML, CSS, JavaScript, jQuery and Boo
 HTML, CSS, Bootstrap, JavaScript, jQuery and WAVE tool
 
 
+## How to run
+Download the code from repository and open the index.html file in your browser
+
 ## Website URL
 https://rajashree-pethkar.github.io/introtoweb-rpethkar-project/
 
