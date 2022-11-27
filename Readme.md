@@ -15,42 +15,6 @@ This is my portfolio website created using HTML, CSS, JavaScript, jQuery and Boo
 ## Technologies used
 HTML, CSS, Bootstrap, JavaScript, jQuery and WAVE tool
 
-## Project structure:
-
-|- Project/
-
-|	|-- files/
-
-|		|-- resume.pdf
-
-|	|-- images/
-
-|		|-- csharp.svg
-
-|		|-- css.png
-
-|		|-- html.png
-
-|		|-- javascript.png
-
-|		|-- jquery.png
-
-|		|-- python.png
-
-|		|-- rajashree.png 
-
-|	|-- scripts/
-
-|		|-- main.js
-
-|	|-- styles/
-
-|		|-- styles.css
-
-|- readme.md
-
-|- index.html
-
 
 ## Website URL
 https://rajashree-pethkar.github.io/introtoweb-rpethkar-project/
