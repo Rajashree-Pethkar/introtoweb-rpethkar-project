@@ -27,12 +27,6 @@ body{
     padding: 1em;
 }
 
-@media(max-width:414px){
-    .flex-container{
-        font-size: 13px;
-    }
-}
-
 div img.self-img {
     border-radius: 100px;
     margin-left: auto;
@@ -175,4 +169,20 @@ figure figcaption{
 
 .textarea-height{
     height: 85px;
+}
+
+@media(max-width:414px) {
+    .flex-container {
+        font-size: 12px;
+    }
+    
+    .aboutme-details {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .intro-text {
+        text-align: center;
+        padding: 40px;
+    }
 }

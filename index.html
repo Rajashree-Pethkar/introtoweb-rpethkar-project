@@ -133,25 +133,27 @@
         </div>
     </div>
     <div id="contactme">
-        <h1 class="text-center">Contact Me</h1>
-        <div class="contacts-div theme-back-color">
-            <div class="mb-contacts">
-                <label class="h5 text-left" for="username">Username:</label>
-                <input class="w-100" type="text" id="username" name="username" />
+        <form>
+            <h1 class="text-center">Contact Me</h1>
+            <div class="contacts-div theme-back-color">
+                <div class="mb-contacts">
+                    <label class="h5 text-left" for="username">Username:</label>
+                    <input class="w-100" type="text" id="username" name="username" />
+                </div>
+                <div class="mb-contacts">
+                    <label class="h5 text-left" for="email">Email:</label>
+                    <input class="w-100" id="email" name="email" type="email" />
+                </div>
+                <div class="mb-contacts-textarea">
+                    <label class="h5 text-left" for="message">Enter your message here:</label>
+                    <textarea class="w-100 textarea-height" id="message" name="message"></textarea>
+                </div>
+                <div>
+                    <input type="submit" id="submit" value="Submit" class="btn btn-secondary" />
+                    <input type="reset" id="reset" value="Reset" class="btn btn-secondary" />
+                </div>
             </div>
-            <div class="mb-contacts">
-                <label class="h5 text-left" for="email">Email:</label>
-                <input class="w-100" id="email" name="email" type="email" />
-            </div>
-            <div class="mb-contacts-textarea">
-                <label class="h5 text-left" for="message">Enter your message here:</label>
-                <textarea class="w-100 textarea-height" id="message" name="message"></textarea>
-            </div>
-            <div>
-                <input type="submit" id="submit" value="Submit" class="btn btn-secondary" />
-                <input type="reset" id="reset" value="Reset" class="btn btn-secondary" />
-            </div>
-        </div>
+        </form>
     </div>
 </body>
 </html>
