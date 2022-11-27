@@ -1,6 +1,10 @@
 body{
-    background-color: black;
-    color: white;
+    background-color: #DADED4;
+    color: black;
+}
+
+.theme-back-color{
+    background-color: #3C403D;
 }
 
 .flex-container {
@@ -8,7 +12,6 @@ body{
     left: 0;
     z-index: 1;
     margin: 0;
-    background-color: #80633f;
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
@@ -60,14 +63,6 @@ div p {
 .img-box {
     width: 135px;
     height: 135px;
-}
-
-.know-more-icon {
-    cursor: pointer;
-    height: 50px;
-    width: 50px;
-    animation: border_out 4s infinite;
-    border: 1px solid #ffffff;
 }
 
 .typed-text {
@@ -146,12 +141,38 @@ figure figcaption{
 }
 
 .projects-div{
-    height: 15rem;
+    height: auto;
     width: 15rem;
     padding: 20px;
     margin: 10px;
     border-color: white;
     border-style: solid;
     border-radius: 15px;
-    background-color: #80633f
+    color:white;
+}
+
+.contacts-div{
+    padding: 20px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 15px;
+    width: 20rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.mb-contacts{
+    margin-bottom: 1.5em;
+}
+
+.mb-contacts-textarea{
+    margin-bottom: 1em;
+}
+
+.textarea-height{
+    height: 85px;
 }

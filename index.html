@@ -11,7 +11,7 @@
     <script src="scripts/main.js"></script>
 </head>
 <body>
-    <nav class="flex-container position-sticky">
+    <nav class="flex-container position-sticky theme-back-color">
         <li>
             <a href="#aboutme" class="menu-link-names link-light">About Me</a>
         </li>
@@ -29,7 +29,7 @@
         </li>
     </nav>
     <div id="introduction" class="intro-text">
-        <img src="images/rajashree.png" width="300px" height="300px" alt="rajashree's image" class="self-img">
+        <img src="images/rajashree.png" width="300px" height="400px" alt="rajashree's image" class="self-img">
         <div class="home-heading">Rajashree Pethkar</div>
         <p class="home-text">
             I am a 
@@ -62,7 +62,7 @@
         <h6>Oct 2013 - April 2016</h5>
         
         <div class="view-resume-div">
-            <a class="link-light" href="Files/Resume.pdf" target="_blank">View Resume</a>
+            <a class="link-dark" href="Files/Resume.pdf" target="_blank">View Resume</a>
         </div>
     </div>
     <div id="skills" class="intro-text">
@@ -97,7 +97,7 @@
     <div id="projects" class="intro-text">
         <h1>My Projects</h1>
         <div class="d-flex flex-wrap justify-content-center skills-div">
-            <div class="projects-div">
+            <div class="projects-div theme-back-color">
                 <p class="h5">Chess</p>
                 <p>A chess program which uses a minimax algorithm with alpha-beta pruning and 
                     intelligent move ordering.</p>
@@ -108,7 +108,7 @@
                 </svg>
                 <a target="_blank" href="https://github.com/Rajashree-Pethkar" class="link-light">click here</a>
             </div>
-            <div class="projects-div">
+            <div class="projects-div theme-back-color">
                 <p class="h5">Deep Music</p>
                 <p>Exploring artistic creativity in deep neural networks</p>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github"
@@ -118,7 +118,7 @@
                 </svg>
                 <a target="_blank" href="https://github.com/Rajashree-Pethkar" class="link-light">click here</a>
             </div>
-            <div class="projects-div">
+            <div class="projects-div theme-back-color">
                 <p class="h5">Synthehol: Music Synthesizer</p>
                 <p>It is an audio synthesizer and pitch shifter on midi music files to 
                     produce drunk like effects
@@ -132,8 +132,26 @@
             </div>
         </div>
     </div>
-    <!-- <div id="contactme" class="intro-text">
-        <h1>Contact Me</h1>
-    </div> -->
+    <div id="contactme">
+        <h1 class="text-center">Contact Me</h1>
+        <div class="contacts-div theme-back-color">
+            <div class="mb-contacts">
+                <label class="h5 text-left" for="username">Username:</label>
+                <input class="w-100" type="text" id="username" name="username" />
+            </div>
+            <div class="mb-contacts">
+                <label class="h5 text-left" for="email">Email:</label>
+                <input class="w-100" id="email" name="email" type="email" />
+            </div>
+            <div class="mb-contacts-textarea">
+                <label class="h5 text-left" for="message">Enter your message here:</label>
+                <textarea class="w-100 textarea-height" id="message" name="message"></textarea>
+            </div>
+            <div>
+                <input type="submit" id="submit" value="Submit" class="btn btn-secondary" />
+                <input type="reset" id="reset" value="Reset" class="btn btn-secondary" />
+            </div>
+        </div>
+    </div>
 </body>
 </html>
