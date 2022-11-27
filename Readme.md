@@ -18,21 +18,37 @@ HTML, CSS, Bootstrap, JavaScript, jQuery and WAVE tool
 ## Project structure:
 
 |- Project/
+
 |	|-- files/
+
 |		|-- resume.pdf
+
 |	|-- images/
+
 |		|-- csharp.svg
+
 |		|-- css.png
+
 |		|-- html.png
+
 |		|-- javascript.png
+
 |		|-- jquery.png
+
 |		|-- python.png
+
 |		|-- rajashree.png 
+
 |	|-- scripts/
+
 |		|-- main.js
+
 |	|-- styles/
+
 |		|-- styles.css
+
 |- readme.md
+
 |- index.html
 
 
